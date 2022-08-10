@@ -72,6 +72,18 @@ img {
 font-weight: 500;
 font-size: 35px;
 line-height: 42px;
+position: relative;
+}
+
+.section__title::after {
+  display: block;
+  content: '';
+  width: 253px;
+  height: 3px;
+  background-color: #102746;
+  position: absolute;
+  bottom: 0;
+  left: 0;
 }
 
 /* header styles start */
