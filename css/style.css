@@ -63,6 +63,17 @@ img {
   margin: 0 auto;
 }
 
+.wrapper__full {
+  max-width: 1262px;
+  margin: 0 auto;
+}
+
+.section__title {
+font-weight: 500;
+font-size: 35px;
+line-height: 42px;
+}
+
 /* header styles start */
 
 .header {
@@ -304,3 +315,7 @@ transition: .2s  all;
 }
 
 /* benefits styles end */
+
+/* places styles start */
+
+/* places styles end */
