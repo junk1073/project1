@@ -140,6 +140,7 @@ img {
   background: url(../img/intro-bg.jpg) no-repeat center;
   background-size: cover;
   padding-top: 263px;
+  padding-bottom: 223px;
 }
 
 .intro__title {
@@ -332,6 +333,10 @@ input:focus:-ms-input-placeholder {
 
 /* places styles start */
 
+.places {
+  margin-bottom: 131px;
+}
+
 .places__caption {
   display: flex;
   flex-wrap: wrap;
@@ -367,6 +372,7 @@ input:focus:-ms-input-placeholder {
 
 .places__card {
   position: relative;
+  overflow: hidden;
 }
 
 .places__card::after {
@@ -379,6 +385,10 @@ input:focus:-ms-input-placeholder {
   top: 0;
   left: 0;
   z-index: 2;
+}
+
+.places__card:hover .places__card-pic {
+  transform: scale(1.05);
 }
 
 .places__card-title {
@@ -396,11 +406,32 @@ input:focus:-ms-input-placeholder {
   grid-column: span 3;
 }
 
+.places__card_size-sm {
+  grid-column: span 2;
+}
+
 .places__card-pic {
   width: 100%;
+  transition: .15s all;
+}
+
+.places__card_pic-size-lg {
   height: 354px;
   object-fit: cover;
-  transition: .15s all;
+}
+
+.places__card_pic-size-sm {
+  height: 283px;
+  object-fit: cover;
+}
+
+.places__card-link {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 4;
 }
 
 /* places styles end */
