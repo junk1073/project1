@@ -435,3 +435,17 @@ input:focus:-ms-input-placeholder {
 }
 
 /* places styles end */
+
+/* tours styles start */
+
+.tours {
+  margin-bottom: 139px;
+}
+
+.tours__tour {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 0 108px;
+}
+
+/* tours styles start */
