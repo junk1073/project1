@@ -462,10 +462,10 @@ input:focus:-ms-input-placeholder {
 }
 
 .tour__desc {
-font-weight: 400;
-font-size: 16px;
-line-height: 24px;
-margin-bottom: 58px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  margin-bottom: 58px;
 }
 
 .tour__more {
@@ -498,12 +498,86 @@ margin-bottom: 58px;
   margin-bottom: 54px;
 }
 
+.top__cards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 57px;
+}
+
 .top__card-pic {
   position: relative;
+  margin-bottom: 45px;
+}
+
+.top__card {
+  display: flex;
+  flex-direction: column;
 }
 
 .top__card-stats {
-  
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: flex-end;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background: rgba(21, 24, 36, 0.6);
+  padding: 16px 25px;
+}
+
+.top__card-title {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 24px;
+  color: white;
+  margin: 0 auto 0 0;
+}
+
+.top__card-likes {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: white;
+  padding-right: 20px;
+  background: url(/img/svg/heart-ico.svg) no-repeat right;
+  margin-right: 14px;
+}
+
+.top__card-comments {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: white;
+  padding-right: 23px;
+  background: url(/img/svg/comment-ico.svg) no-repeat right;
+}
+
+.top__card-desc {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #102746;
+  margin-bottom: 43px;
+}
+
+.top__card-more {
+  width: 118px;
+  padding: 12px 19px;
+  background: #006DFE;
+  text-decoration: none;
+  color: white;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  margin: auto 0 0 0;
+}
+
+.top__card-more:hover,
+.top__card-more:focus,
+.top__card-more:active {
+  background: #0e66da;
 }
 
 /* top places styles end */
