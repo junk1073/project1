@@ -446,6 +446,64 @@ input:focus:-ms-input-placeholder {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-gap: 0 108px;
+  align-items: center;
+  margin-bottom: 77px;
 }
 
-/* tours styles start */
+.tour__info {
+  padding-left: 47px;
+}
+
+.tour__title {
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 40px;
+  margin-bottom: 85px;
+}
+
+.tour__desc {
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+margin-bottom: 58px;
+}
+
+.tour__more {
+  display: inline-block;
+  padding-right: 59px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #006DFE;
+  text-decoration: none;
+  background: url(../img/svg/arrow-right-ico.svg) no-repeat 95% center;
+  transition: .2s all;
+}
+
+.tour__more:hover,
+.tour__more:focus {
+  background: url(../img/svg/arrow-right-ico.svg) no-repeat right center;
+  opacity: .75;
+}
+
+/* tours styles end */
+
+/* top places styles start */
+
+.top {
+  margin-bottom: 86px;
+}
+
+.top__title {
+  margin-bottom: 54px;
+}
+
+.top__card-pic {
+  position: relative;
+}
+
+.top__card-stats {
+  
+}
+
+/* top places styles end */
