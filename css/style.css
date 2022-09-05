@@ -695,33 +695,37 @@ input:focus:-ms-input-placeholder {
 /* media styles start */
 
 @media screen and (max-width: 939px) {
-    .search__form-field {
-      margin-bottom: 25px;
-    }
+  .search__form-field {
+    margin-bottom: 25px;
+  }
 
-    .benefits {
-      margin-bottom: 75px;
-    }
+  .benefits {
+    margin-bottom: 75px;
+  }
 
-    .benefits__card {
-      margin-bottom: 60px;
-    }
+  .benefits__card {
+    margin-bottom: 60px;
+  }
 
-    .benefits__cards {
-      padding: 0 15px;
-    }
+  .benefits__cards {
+    padding: 0 15px;
+  }
 
-    .benefits__title {
-      padding: 55px 15px;
-    }
+  .benefits__title {
+    padding: 55px 15px;
+  }
 
-    .benefits__wrap {
-      box-shadow: 0;
-    }
+  .benefits__wrap {
+    box-shadow: 0;
+  }
 
-    .places__card_size-lg {
-      grid-column: span 6;
-    }
+  .places__card_size-lg {
+    grid-column: span 6;
+  }
+
+  .places__card_size-sm {
+    grid-column: span 6;
+  }
 
 }
 
